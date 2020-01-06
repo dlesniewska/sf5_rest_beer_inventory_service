@@ -3,9 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>dl.springframework</groupId>
-        <artifactId>sf5_rest_brewery_bom</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <groupId>com.github.sfg-beer-works</groupId>
+        <artifactId>sfg-brewery-bom</artifactId>
+        <version>1.0.11</version>
     </parent>
     <groupId>dl.springframework</groupId>
     <artifactId>sf5_rest_beer_inventory_service</artifactId>
@@ -13,21 +13,4 @@
     <name>sf5_rest_beer_inventory_service</name>
     <description>1 of 3 microservices from a monolith</description>
 
-    <dependencies>
-        <dependency>
-            <groupId>javax.xml.bind</groupId>
-            <artifactId>jaxb-api</artifactId>
-            <version>${jaxb.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sun.xml.bind</groupId>
-            <artifactId>jaxb-core</artifactId>
-            <version>${jaxb.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sun.xml.bind</groupId>
-            <artifactId>jaxb-impl</artifactId>
-            <version>${jaxb.version}</version>
-        </dependency>
-    </dependencies>
 </project>
